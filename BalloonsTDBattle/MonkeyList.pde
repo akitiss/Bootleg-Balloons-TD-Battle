@@ -1,9 +1,9 @@
 public class MonkeyList {
   ArrayList<Monkey> monke;
+  
   public MonkeyList() {
     monke = new ArrayList<Monkey>();
   }
-  
   void processAll() {
     for (int i = 0; i < monke.size(); i++) {
       Monkey current =  monke.get(i);
@@ -37,7 +37,8 @@ public class MonkeyList {
       }
     }
   }
-  
+
+
   public Monkey get(int index) {
     return monke.get(index);
   }
